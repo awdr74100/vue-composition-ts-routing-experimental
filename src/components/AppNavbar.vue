@@ -9,7 +9,15 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router/auto';
 
-const paths = ['/', '/about', '/users', '/users/1', '/users/2'];
+const paths = [
+  '/',
+  '/about',
+  '/users',
+  '/users/1',
+  '/users/2',
+  '/users/3/profile',
+  '/admin',
+];
 </script>
 
 <style scoped>
