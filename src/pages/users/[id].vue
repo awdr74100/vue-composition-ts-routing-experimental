@@ -1,5 +1,7 @@
 <template>
   <h1>fullPath: {{ $route.fullPath }}</h1>
+  <!-- <h2>params.id: {{ $route.name === '/users/[id]' && $route.params.id }}</h2> -->
+  <!-- <h2>params.id: {{ route.params.id }}</h2> -->
   <p v-if="isFetching">Loading...</p>
   <p v-else-if="error">{{ error }}</p>
   <ul v-else-if="user">
