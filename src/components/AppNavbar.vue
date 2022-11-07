@@ -11,6 +11,7 @@ import { RouterLink } from 'vue-router/auto';
 
 const paths = [
   '/',
+  '/news',
   '/about',
   '/users',
   '/users/1',
