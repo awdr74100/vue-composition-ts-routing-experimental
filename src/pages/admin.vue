@@ -11,7 +11,7 @@
 </route> -->
 
 <script setup lang="ts">
-import { definePage } from 'vue-router/auto';
+import { _definePage as definePage } from 'unplugin-vue-router/runtime';
 
 definePage({
   meta: {
