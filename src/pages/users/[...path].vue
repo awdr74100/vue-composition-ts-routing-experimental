@@ -2,8 +2,6 @@
 import { _definePage as definePage } from 'unplugin-vue-router/runtime';
 
 definePage({
-  redirect: {
-    path: '/users',
-  },
+  redirect: '/users',
 });
 </script>
