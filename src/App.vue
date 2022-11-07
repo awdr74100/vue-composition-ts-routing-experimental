@@ -8,7 +8,6 @@
 </template>
 
 <script setup lang="ts">
-import { RouterView } from 'vue-router/auto';
 import AppNavbar from '@/components/AppNavbar.vue';
 </script>
 

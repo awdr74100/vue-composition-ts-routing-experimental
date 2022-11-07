@@ -7,8 +7,6 @@
 </template>
 
 <script setup lang="ts">
-import { RouterLink } from 'vue-router/auto';
-
 const paths = [
   '/',
   '/news',

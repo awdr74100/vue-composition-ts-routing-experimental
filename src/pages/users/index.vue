@@ -6,7 +6,9 @@
     <li
       v-for="(user, index) in users.slice(0, 4)"
       :key="index"
-      @click.prevent="$router.push(`/users/${user.id}`)"
+      @click.prevent="
+        $router.push({ name: '/users/[id]', params: { id: user.id } })
+      "
     >
       <p>id: {{ user.id }}</p>
       <p>name: {{ user.name }}</p>
