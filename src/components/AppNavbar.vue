@@ -7,6 +7,20 @@
 </template>
 
 <script setup lang="ts">
+import { useLink } from 'vue-router/auto';
+
+const { isActive } = useLink({
+  to: { name: '/users/[id]', params: { id: 1 } },
+});
+
+const { isExactActive } = useLink({
+  to: { path: '/users/2' },
+});
+
+const { href, route } = useLink({
+  to: '/admin',
+});
+
 const paths = [
   '/',
   '/news',
